@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main() 
 {
-	int num[] = { 14,23,32,62,19 };//num¬O«ü¼Ğ±`¼Æ ¤£¥i­×§ï
+	int num[] = { 14,23,32,62,19 };//numæ˜¯æŒ‡æ¨™å¸¸æ•¸ ä¸å¯ä¿®æ”¹
 	const int a = 5;
-	const int* pp = &a;//«ü¦V¤£¥i­×§ïªº±`¼Æ
-    int* const ppp = num;//«ü¼Ğ±`¼Æ(¤£¥i­×§ï)
+	const int* pp = &a;//æŒ‡å‘ä¸å¯ä¿®æ”¹çš„å¸¸æ•¸
+    int* const ppp = num;//æŒ‡æ¨™å¸¸æ•¸(ä¸å¯ä¿®æ”¹)
 	
 	printf("%d\n", *num);
 
