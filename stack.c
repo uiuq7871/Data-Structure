@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-//¤¤¸m¦¡A*(B+C/D)+E
-//«á¸m¦¡ABCD/+*E+
+//Â¤Â¤Â¸mÂ¦Â¡A*(B+C/D)+E
+//Â«Ã¡Â¸mÂ¦Â¡ABCD/+*E+
 int main()
 {
 	char str[] = "ABCD/+*E+";
